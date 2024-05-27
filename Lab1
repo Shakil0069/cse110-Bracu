@@ -1,0 +1,60 @@
+Task1
+print('hello world')
+TASK2
+print(54+56)
+TASK3
+season = input("Enter season: ")
+year = int(input("Enter year: "))
+print(season)
+print(year)
+TASK4
+name = input()
+print('Your name is {}'.format(name))
+TASK5
+M = int(input())
+N = int(input())
+output=M**N
+print('{}^{}: {}'.format(M,N,output))
+OR,
+M = int(input())
+N = int(input())
+output=M**N
+print(f'{M}^{N}: {output}')
+TASK6
+weight = int(input("Sir, please enter weight: "))
+max_load = (weight//4)*4
+print(max_load)
+TASK7
+A = int(input("Sir, please input a int num: "))
+B = int(input("Sir, please input a int num: "))
+C = int(input("Sir, please input a int num: "))
+D = float(input("Sir, please input a float num: "))
+output = int(A**C+B*A-(D/3)) #casting
+print(output)
+OR,
+A = int(input("Sir, please input a int num: "))
+B = int(input("Sir, please input a int num: "))
+C = int(input("Sir, please input a int num: "))
+D = float(input("Sir, please input a float num: "))
+output = (A**C+B*A-(D/3)) 
+print (int(output))
+TASK8
+a = int(input())
+output1 = a//3
+output2 = a%3
+print('Each friend will receive {} chocolates '.format(output1))
+print('The number of remaining chocolates is {}'.format(output2))
+Task9
+sam1 = input()
+sam2 = input()
+output = sam2+sam1
+print(output)
+TASK10
+a = input('Input a sentence:')
+print(a[0])
+TASK11
+var1 = int(input())
+if var1%2==0:
+  print('True')
+else:
+  print('False')
